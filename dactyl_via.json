@@ -1,207 +1,304 @@
 {
   "name": "Dactyl Manuform (Handwired)",
-  "vendorId": "0x4D41",
-  "productId": "0x0002",
-  "matrix": {
-    "rows": 12,
-    "cols": 6
-  },
-  "layouts": {
-    "keymap": [
-      [
-        {
-          "x": 2
-        },
-        "0,2",
-        "0,3",
-        "0,4",
-        "0,5",
-        {
-          "x": 3.75
-        },
-        "6,0",
-        "6,1",
-        "6,2",
-        "6,3"
-      ],
-      [
-        {
-          "y": -0.5
-        },
-        "0,0",
-        "0,1",
-        {
-          "x": 11.75
-        },
-        "6,4",
-        "6,5"
-      ],
-      [
-        {
-          "y": -0.5,
-          "x": 2
-        },
-        "1,2",
-        "1,3",
-        "1,4",
-        "1,5",
-        {
-          "x": 3.75
-        },
-        "7,0",
-        "7,1",
-        "7,2",
-        "7,3"
-      ],
-      [
-        {
-          "y": -0.5
-        },
-        "1,0",
-        "1,1",
-        {
-          "x": 11.75
-        },
-        "7,4",
-        "7,5"
-      ],
-      [
-        {
-          "y": -0.5,
-          "x": 2
-        },
-        "2,2",
-        "2,3",
-        "2,4",
-        "2,5",
-        {
-          "x": 3.75
-        },
-        "8,0",
-        "8,1",
-        "8,2",
-        "8,3"
-      ],
-      [
-        {
-          "y": -0.5
-        },
-        "2,0",
-        "2,1",
-        {
-          "x": 11.75
-        },
-        "8,4",
-        "8,5"
-      ],
-      [
-        {
-          "y": -0.5,
-          "x": 2
-        },
-        "3,2",
-        "3,3",
-        "3,4",
-        "3,5",
-        {
-          "x": 3.75
-        },
-        "9,0",
-        "9,1",
-        "9,2",
-        "9,3"
-      ],
-      [
-        {
-          "y": -0.5
-        },
-        "3,0",
-        "3,1",
-        {
-          "x": 11.75
-        },
-        "9,4",
-        "9,5"
-      ],
-      [
-        {
-          "y": -0.5,
-          "x": 2
-        },
-        "4,2",
-        "4,3",
-        {
-          "x": 7.75
-        },
-        "10,2",
-        "10,3"
-      ],
-      [
-        {
-          "r": 15,
-          "rx": 5,
-          "ry": 4.5,
-          "y": 0.25,
-          "x": 4.25
-        },
-        "11,0",
-        "11,1"
-      ],
-      [
-        {
-          "x": 4.25
-        },
-        "11,2",
-        "11,3"
-      ],
-      [
-        {
-          "r": 60,
-          "rx": 8,
-          "ry": 1.25,
-          "y": -1.25,
-          "x": 4
-        },
-        "10,1"
-      ],
-      [
-        {
-          "x": 4
-        },
-        "10,0"
-      ],
-      [
-        {
-          "r": -60,
-          "rx": 5,
-          "ry": 4.5,
-          "y": -0.5,
-          "x": -0.75
-        },
-        "4,4"
-      ],
-      [
-        {
-          "x": -0.75
-        },
-        "4,5"
-      ],
-      [
-        {
-          "r": -15,
-          "y": 0.25,
-          "x": -0.75
-        },
-        "5,4",
-        "5,5"
-      ],
-      [
-        {
-          "x": -0.75
-        },
-        "5,2",
-        "5,3"
-      ]
+  "vendorProductId": 1296105474,
+  "macros": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+  "layers": [
+    [
+      "KC_ESC",
+      "KC_1",
+      "KC_2",
+      "KC_3",
+      "KC_4",
+      "KC_5",
+      "KC_TAB",
+      "KC_Q",
+      "KC_W",
+      "KC_E",
+      "KC_R",
+      "KC_T",
+      "KC_LSFT",
+      "KC_A",
+      "KC_S",
+      "KC_D",
+      "KC_F",
+      "KC_G",
+      "KC_LALT",
+      "KC_Z",
+      "KC_X",
+      "KC_C",
+      "KC_V",
+      "KC_B",
+      "KC_NO",
+      "KC_NO",
+      "KC_LBRC",
+      "KC_RBRC",
+      "KC_LGUI",
+      "KC_SPC",
+      "KC_NO",
+      "KC_NO",
+      "KC_BSPC",
+      "KC_LGUI",
+      "KC_LCTL",
+      "KC_LCTL",
+      "KC_6",
+      "KC_7",
+      "KC_8",
+      "KC_9",
+      "KC_0",
+      "KC_GRV",
+      "KC_Y",
+      "KC_U",
+      "KC_I",
+      "KC_O",
+      "KC_P",
+      "KC_MINS",
+      "KC_H",
+      "KC_J",
+      "KC_K",
+      "KC_L",
+      "KC_SCLN",
+      "KC_QUOT",
+      "KC_N",
+      "KC_M",
+      "KC_COMM",
+      "KC_DOT",
+      "KC_SLSH",
+      "KC_DEL",
+      "KC_ENT",
+      "KC_BSPC",
+      "MO(1)",
+      "MO(2)",
+      "KC_NO",
+      "KC_NO",
+      "KC_LGUI",
+      "KC_BSPC",
+      "KC_RGUI",
+      "KC_DEL",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_F1",
+      "KC_F2",
+      "KC_F3",
+      "KC_F4",
+      "KC_F5",
+      "KC_F6",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_F7",
+      "KC_F8",
+      "KC_F9",
+      "KC_F10",
+      "KC_F11",
+      "KC_F12",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_BSLS",
+      "KC_TRNS",
+      "KC_EQL",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO",
+      "KC_NO",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_MPRV",
+      "KC_MSTP",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_VOLD",
+      "KC_F7",
+      "KC_F8",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO",
+      "KC_NO",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_MPLY",
+      "KC_MNXT",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_VOLU",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_RBRC",
+      "KC_BSLS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "MO(1)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "MO(2)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
     ]
-  }
+  ],
+  "encoders": []
 }
